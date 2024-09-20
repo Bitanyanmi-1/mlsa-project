@@ -1,0 +1,47 @@
+    .container {
+      background-color: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 300px;
+      text-align: center;
+    }
+
+    .frm_header {
+      color: #01579b;
+    }
+
+    input {
+      width: 50%;
+      padding: 12px;
+      margin: 10px 0;
+      border-radius: 4px;
+      border: 1px solid #01579b;
+    }
+
+    button {
+      width: 53%;
+      background-color: #01579b;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    button:hover {
+      background-color: #0277bd;
+    }
+
+    .toggle-link {
+      color: #01579b;
+      cursor: pointer;
+      text-decoration: underline;
+      margin-top: 20px;
+      display: block;
+    }
+
+    .hidden {
+      display: none;
+    }
